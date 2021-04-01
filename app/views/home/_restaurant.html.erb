@@ -1,0 +1,16 @@
+        <p>Seus Produtos <% current_user.restaurant.name %></p>
+        <table>
+            <thead>
+                <th> Nome </th>
+                <th> Valor </th>
+            </thead>
+
+            <tbody>
+                <% current_user.restaurant.products.each do |p| %>
+                    <tr>
+                        <th><%= p.name %></th>
+                        <th><%= p.value %></th>
+                    </tr>
+                <% end %>
+            </tbody>
+        </table>

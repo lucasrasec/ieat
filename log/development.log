@@ -1,0 +1,2300 @@
+Started GET "/" for 127.0.0.1 at 2021-03-30 15:18:51 -0300
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "ieat_development" does not exist
+):
+  
+activerecord (6.1.3.1) lib/active_record/connection_adapters/postgresql_adapter.rb:81:in `rescue in new_client'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+activerecord (6.1.3.1) lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+activerecord (6.1.3.1) lib/active_record/connection_handling.rb:283:in `connection'
+activerecord (6.1.3.1) lib/active_record/migration.rb:611:in `connection'
+activerecord (6.1.3.1) lib/active_record/migration.rb:606:in `build_watcher'
+activerecord (6.1.3.1) lib/active_record/migration.rb:588:in `block in call'
+activerecord (6.1.3.1) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.3.1) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.1) lib/mini_profiler/profiler.rb:373:in `call'
+webpacker (5.2.1) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.1.3.1) lib/rails/engine.rb:539:in `call'
+puma (5.2.2) lib/puma/configuration.rb:248:in `call'
+puma (5.2.2) lib/puma/request.rb:76:in `block in handle_request'
+puma (5.2.2) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
+puma (5.2.2) lib/puma/request.rb:75:in `handle_request'
+puma (5.2.2) lib/puma/server.rb:431:in `process_client'
+puma (5.2.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-03-30 15:19:08 -0300
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "ieat_development" does not exist
+):
+  
+activerecord (6.1.3.1) lib/active_record/connection_adapters/postgresql_adapter.rb:81:in `rescue in new_client'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+activerecord (6.1.3.1) lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+activerecord (6.1.3.1) lib/active_record/connection_handling.rb:283:in `connection'
+activerecord (6.1.3.1) lib/active_record/migration.rb:611:in `connection'
+activerecord (6.1.3.1) lib/active_record/migration.rb:606:in `build_watcher'
+activerecord (6.1.3.1) lib/active_record/migration.rb:588:in `block in call'
+activerecord (6.1.3.1) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.3.1) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.1) lib/mini_profiler/profiler.rb:373:in `call'
+webpacker (5.2.1) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.1.3.1) lib/rails/engine.rb:539:in `call'
+puma (5.2.2) lib/puma/configuration.rb:248:in `call'
+puma (5.2.2) lib/puma/request.rb:76:in `block in handle_request'
+puma (5.2.2) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
+puma (5.2.2) lib/puma/request.rb:75:in `handle_request'
+puma (5.2.2) lib/puma/server.rb:431:in `process_client'
+puma (5.2.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-03-30 15:22:14 -0300
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "ieat_development" does not exist
+):
+  
+activerecord (6.1.3.1) lib/active_record/connection_adapters/postgresql_adapter.rb:81:in `rescue in new_client'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+activerecord (6.1.3.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+activerecord (6.1.3.1) lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+activerecord (6.1.3.1) lib/active_record/connection_handling.rb:283:in `connection'
+activerecord (6.1.3.1) lib/active_record/migration.rb:611:in `connection'
+activerecord (6.1.3.1) lib/active_record/migration.rb:606:in `build_watcher'
+activerecord (6.1.3.1) lib/active_record/migration.rb:588:in `block in call'
+activerecord (6.1.3.1) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.3.1) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.1) lib/mini_profiler/profiler.rb:373:in `call'
+webpacker (5.2.1) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.1.3.1) lib/rails/engine.rb:539:in `call'
+puma (5.2.2) lib/puma/configuration.rb:248:in `call'
+puma (5.2.2) lib/puma/request.rb:76:in `block in handle_request'
+puma (5.2.2) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
+puma (5.2.2) lib/puma/request.rb:75:in `handle_request'
+puma (5.2.2) lib/puma/server.rb:431:in `process_client'
+puma (5.2.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+  [1m[35m (60.4ms)[0m  [1m[35mCREATE DATABASE "ieat_development" ENCODING = 'unicode'[0m
+  [1m[35m (59.1ms)[0m  [1m[35mCREATE DATABASE "ieat_test" ENCODING = 'unicode'[0m
+Started GET "/" for 127.0.0.1 at 2021-03-30 15:24:10 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/lucas/.rvm/gems/ruby-3.0.0/gems/railties-6.1.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/railties-6.1.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.3ms | Allocations: 414)
+Completed 200 OK in 12ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 3461)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-30 15:24:48 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/lucas/.rvm/gems/ruby-3.0.0/gems/railties-6.1.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/railties-6.1.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.4ms | Allocations: 219)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 953)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-30 16:06:00 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/lucas/.rvm/gems/ruby-3.0.0/gems/railties-6.1.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/railties-6.1.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 15.7ms | Allocations: 414)
+Completed 200 OK in 56ms (Views: 42.2ms | ActiveRecord: 0.0ms | Allocations: 3082)
+
+
+DEPRECATION WARNING: [] is deprecated and will be removed from Rails 6.2 (Use configs_for) (called from migration_template at (erb):6)
+DEPRECATION WARNING: [] is deprecated and will be removed from Rails 6.2 (Use configs_for) (called from migration_template at (erb):6)
+DEPRECATION WARNING: [] is deprecated and will be removed from Rails 6.2 (Use configs_for) (called from <main> at /home/lucas/Desktop/project/ieat/bin/rails:5)
+DEPRECATION WARNING: [] is deprecated and will be removed from Rails 6.2 (Use configs_for) (called from <main> at /home/lucas/Desktop/project/ieat/bin/rails:5)
+DEPRECATION WARNING: [] is deprecated and will be removed from Rails 6.2 (Use configs_for) (called from <main> at /home/lucas/Desktop/project/ieat/bin/rails:5)
+DEPRECATION WARNING: [] is deprecated and will be removed from Rails 6.2 (Use configs_for) (called from <main> at /home/lucas/Desktop/project/ieat/bin/rails:5)
+DEPRECATION WARNING: [] is deprecated and will be removed from Rails 6.2 (Use configs_for) (called from <main> at /home/lucas/Desktop/project/ieat/bin/rails:5)
+  [1m[35m (9.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (7.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8512873719464734410)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateUsers (20210330191240)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (8.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (2.5ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210330191240"]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-03-30 19:15:04.245659"], ["updated_at", "2021-03-30 19:15:04.245659"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(8512873719464734410)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/home/index" for 127.0.0.1 at 2021-03-30 16:18:11 -0300
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/home/index"):
+  
+Started GET "/" for 127.0.0.1 at 2021-03-30 16:19:29 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 110)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/lucas/Desktop/project/ieat/public/packs
+[Webpacker] Hash: e332c6419728fac579d5
+Version: webpack 4.46.0
+Time: 1346ms
+Built at: 03/30/2021 4:19:32 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-f826770d917d8a37c1d8.js    125 KiB  application  [emitted] [immutable]  application
+js/application-f826770d917d8a37c1d8.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-f826770d917d8a37c1d8.js js/application-f826770d917d8a37c1d8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 3026.3ms | Allocations: 14297)
+Completed 200 OK in 3030ms (Views: 3027.7ms | ActiveRecord: 0.0ms | Allocations: 16665)
+
+
+Started GET "/user" for 127.0.0.1 at 2021-03-30 16:19:43 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/user"):
+  
+Started GET "/users" for 127.0.0.1 at 2021-03-30 16:19:46 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+Started GET "/" for 127.0.0.1 at 2021-03-30 16:19:50 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 2926)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 3376)
+
+
+Started GET "/users/sing-up" for 127.0.0.1 at 2021-03-30 16:21:17 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users/sing-up"):
+  
+Started GET "/users/sing_up" for 127.0.0.1 at 2021-03-30 16:21:32 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users/sing_up"):
+  
+Started GET "/users/sign_up" for 127.0.0.1 at 2021-03-30 16:21:43 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/shared/_error_messages.html.erb (Duration: 0.7ms | Allocations: 225)
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 542)
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 19.8ms | Allocations: 9410)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 12258)
+Completed 200 OK in 47ms (Views: 27.8ms | ActiveRecord: 7.0ms | Allocations: 19269)
+
+
+Started POST "/users" for 127.0.0.1 at 2021-03-30 16:22:28 -0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"lucasrasecc@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "lucasrasecc@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "lucasrasecc@gmail.com"], ["encrypted_password", "$2a$12$BljXCeeWhRMNxWGfzcrW6emufplMWI94d.Kd9cDa8tFSSl7fCFOf2"], ["created_at", "2021-03-30 19:22:28.377160"], ["updated_at", "2021-03-30 19:22:28.377160"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 212ms (ActiveRecord: 5.0ms | Allocations: 11200)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-30 16:22:28 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 2993)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 3630)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-30 16:26:33 -0300
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 3387)
+
+
+  
+NameError (undefined local variable or method `user_logged_in' for #<HomeController:0x0000000000e178>
+Did you mean?  user_signed_in?):
+  
+app/controllers/home_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2021-03-30 16:26:37 -0300
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 3320)
+
+
+  
+NameError (undefined local variable or method `user_logged_in' for #<HomeController:0x0000000000e678>
+Did you mean?  user_signed_in?):
+  
+app/controllers/home_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2021-03-30 16:26:55 -0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 4521)
+
+
+  
+NameError (undefined local variable or method `user_logged_in' for #<HomeController:0x0000000000a2d0>
+Did you mean?  user_signed_in?):
+  
+app/controllers/home_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2021-03-30 16:27:26 -0300
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 3383)
+
+
+  
+NameError (undefined local variable or method `user_signed_in' for #<HomeController:0x0000000000bae0>
+Did you mean?  user_signed_in?):
+  
+app/controllers/home_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2021-03-30 16:27:55 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 130)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 5571)
+Completed 200 OK in 34ms (Views: 14.3ms | ActiveRecord: 7.4ms | Allocations: 13940)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-30 16:28:26 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2939)
+Completed 200 OK in 10ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 3472)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-03-30 16:34:12 -0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 650)
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 9.3ms | Allocations: 7280)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 12603)
+Completed 200 OK in 37ms (Views: 20.4ms | ActiveRecord: 5.1ms | Allocations: 21701)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2021-03-30 16:34:17 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"lucasrasecc@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "lucasrasecc@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 193ms (ActiveRecord: 2.4ms | Allocations: 5760)
+
+
+Started GET "/" for 127.0.0.1 at 2021-03-30 16:34:17 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 127)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 3089)
+Completed 200 OK in 9ms (Views: 5.8ms | ActiveRecord: 0.6ms | Allocations: 5246)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8512873719464734410)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateRestaurants (20210330193610)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (9.1ms)[0m  [1m[35mCREATE TABLE "restaurants" ("id" bigserial primary key, "name" character varying, "address" text, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210330193610"]]
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(8512873719464734410)[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2021-03-30 16:45:15 -0300
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 314)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.5ms | Allocations: 20611)
+Completed 200 OK in 72ms (Views: 45.3ms | ActiveRecord: 7.6ms | Allocations: 30491)
+
+
+Started GET "/restaurants/index" for 127.0.0.1 at 2021-03-30 16:45:25 -0300
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"index"}
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/restaurants_controller.rb:62:in `set_restaurant'
+Completed 404 Not Found in 10ms (ActiveRecord: 4.6ms | Allocations: 2570)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Restaurant with 'id'=index):
+  
+app/controllers/restaurants_controller.rb:62:in `set_restaurant'
+Started GET "/restaurants" for 127.0.0.1 at 2021-03-30 16:45:36 -0300
+Processing by RestaurantsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/views/restaurants/index.html.erb:15
+  Rendered restaurants/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1243)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 4298)
+Completed 200 OK in 15ms (Views: 12.6ms | ActiveRecord: 1.3ms | Allocations: 5413)
+
+
+Started GET "/restaurants/new" for 127.0.0.1 at 2021-03-30 16:47:15 -0300
+Processing by RestaurantsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering restaurants/new.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (Duration: 15.5ms | Allocations: 7117)
+  Rendered restaurants/new.html.erb within layouts/application (Duration: 17.0ms | Allocations: 7469)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.7ms | Allocations: 10348)
+Completed 200 OK in 28ms (Views: 22.6ms | ActiveRecord: 0.0ms | Allocations: 13041)
+
+
+Started POST "/restaurants" for 127.0.0.1 at 2021-03-30 16:47:32 -0300
+Processing by RestaurantsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "restaurant"=>{"name"=>"Paulista", "address"=>"Rua 1 numero 1"}, "commit"=>"Create Restaurant"}
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/restaurants_controller.rb:27:in `block in create'
+  [1m[36mRestaurant Create (1.8ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Paulista"], ["address", "Rua 1 numero 1"], ["created_at", "2021-03-30 19:47:32.760472"], ["updated_at", "2021-03-30 19:47:32.760472"]]
+  ↳ app/controllers/restaurants_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/restaurants_controller.rb:27:in `block in create'
+Redirected to http://localhost:3000/restaurants/1
+Completed 302 Found in 11ms (ActiveRecord: 3.8ms | Allocations: 3413)
+
+
+Started GET "/restaurants/1" for 127.0.0.1 at 2021-03-30 16:47:32 -0300
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (1.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/restaurants_controller.rb:62:in `set_restaurant'
+  Rendering layout layouts/application.html.erb
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (Duration: 2.2ms | Allocations: 275)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 3255)
+Completed 200 OK in 17ms (Views: 10.9ms | ActiveRecord: 1.3ms | Allocations: 4570)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2021-03-30 16:47:36 -0300
+Processing by RestaurantsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/views/restaurants/index.html.erb:15
+  Rendered restaurants/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1028)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 4006)
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 1.2ms | Allocations: 4471)
+
+
+Started DELETE "/restaurants/1" for 127.0.0.1 at 2021-03-30 16:47:55 -0300
+Processing by RestaurantsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"1"}
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/restaurants_controller.rb:62:in `set_restaurant'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/restaurants_controller.rb:52:in `destroy'
+  [1m[36mRestaurant Destroy (1.2ms)[0m  [1m[31mDELETE FROM "restaurants" WHERE "restaurants"."id" = $1[0m  [["id", 1]]
+  ↳ app/controllers/restaurants_controller.rb:52:in `destroy'
+  [1m[36mTRANSACTION (3.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/restaurants_controller.rb:52:in `destroy'
+Redirected to http://localhost:3000/restaurants
+Completed 302 Found in 15ms (ActiveRecord: 7.0ms | Allocations: 2916)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2021-03-30 16:47:55 -0300
+Processing by RestaurantsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/views/restaurants/index.html.erb:15
+  Rendered restaurants/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 916)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 3895)
+Completed 200 OK in 16ms (Views: 12.8ms | ActiveRecord: 1.8ms | Allocations: 4368)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2021-03-30 16:48:20 -0300
+Processing by RestaurantsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/views/restaurants/index.html.erb:15
+  Rendered restaurants/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 914)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 3902)
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 1.4ms | Allocations: 4369)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8512873719464734410)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateProducts (20210330195023)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (9.0ms)[0m  [1m[35mCREATE TABLE "products" ("id" bigserial primary key, "name" character varying, "value" float, "restaurant_id" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210330195023"]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(8512873719464734410)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRestaurant Create (0.6ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "res1"], ["address", "Rua 2"], ["created_at", "2021-03-30 19:55:54.944421"], ["updated_at", "2021-03-30 19:55:54.944421"]]
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO "products" ("name", "value", "restaurant_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Pastel"], ["value", 4.0], ["restaurant_id", 2], ["created_at", "2021-03-30 19:57:19.588608"], ["updated_at", "2021-03-30 19:57:19.588608"]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."restaurant_id" = $1 /* loading for inspect */ LIMIT $2[0m  [["restaurant_id", 2], ["LIMIT", 11]]
+Started GET "/products" for 127.0.0.1 at 2021-03-31 14:13:44 -0300
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/products"):
+  
+Started GET "/products/index" for 127.0.0.1 at 2021-03-31 14:13:50 -0300
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 110)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 53.7ms | Allocations: 21203)
+Completed 200 OK in 59ms (Views: 55.7ms | ActiveRecord: 0.0ms | Allocations: 23598)
+
+
+Started GET "/products/index" for 127.0.0.1 at 2021-03-31 14:14:13 -0300
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/products" for 127.0.0.1 at 2021-03-31 14:14:17 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/products"):
+  
+Started GET "/products" for 127.0.0.1 at 2021-03-31 14:15:00 -0300
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 3147)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3784)
+
+
+Started GET "/products" for 127.0.0.1 at 2021-03-31 14:22:04 -0300
+Processing by ProductsController#index as HTML
+Completed 500 Internal Server Error in 6ms (Allocations: 3498)
+
+
+  
+NameError (undefined local variable or method `products' for #<ProductsController:0x0000000000e560>
+Did you mean?  products_url):
+  
+app/controllers/products_controller.rb:3:in `index'
+Started GET "/products" for 127.0.0.1 at 2021-03-31 14:22:25 -0300
+Processing by ProductsController#index as HTML
+Completed 500 Internal Server Error in 5ms (Allocations: 3432)
+
+
+  
+NameError (undefined local variable or method `product' for #<ProductsController:0x00000000010158>
+Did you mean?  products_url):
+  
+app/controllers/products_controller.rb:3:in `index'
+Started GET "/products" for 127.0.0.1 at 2021-03-31 14:22:30 -0300
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (2.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:11
+  Rendered products/index.html.erb within layouts/application (Duration: 34.0ms | Allocations: 8278)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.0ms | Allocations: 11602)
+Completed 200 OK in 48ms (Views: 41.3ms | ActiveRecord: 21.4ms | Allocations: 14126)
+
+
+Started GET "/products" for 127.0.0.1 at 2021-03-31 14:23:36 -0300
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (1.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:11
+  [1m[36mRestaurant Load (2.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:15
+  Rendered products/index.html.erb within layouts/application (Duration: 32.2ms | Allocations: 10127)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.5ms | Allocations: 13340)
+Completed 200 OK in 42ms (Views: 31.0ms | ActiveRecord: 9.7ms | Allocations: 14657)
+
+
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "restaurants"[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "restaurants"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8512873719464734410)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(8512873719464734410)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/products" for 127.0.0.1 at 2021-03-31 14:31:51 -0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (1.0ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:11
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:15
+  Rendered products/index.html.erb within layouts/application (Duration: 29.6ms | Allocations: 12277)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.9ms | Allocations: 18756)
+Completed 200 OK in 47ms (Views: 27.5ms | ActiveRecord: 13.2ms | Allocations: 23223)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2021-03-31 14:32:02 -0300
+Processing by RestaurantsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/views/restaurants/index.html.erb:15
+  Rendered restaurants/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1476)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 4577)
+Completed 200 OK in 13ms (Views: 10.4ms | ActiveRecord: 1.7ms | Allocations: 5762)
+
+
+Started GET "/restaurants/new" for 127.0.0.1 at 2021-03-31 14:32:11 -0300
+Processing by RestaurantsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering restaurants/new.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (Duration: 8.5ms | Allocations: 5258)
+  Rendered restaurants/new.html.erb within layouts/application (Duration: 9.7ms | Allocations: 5630)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 8563)
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 9192)
+
+
+Started POST "/restaurants" for 127.0.0.1 at 2021-03-31 14:32:21 -0300
+Processing by RestaurantsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "restaurant"=>{"name"=>"rest2", "address"=>"rua 4"}, "commit"=>"Create Restaurant"}
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/restaurants_controller.rb:27:in `block in create'
+  [1m[36mRestaurant Create (2.0ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "rest2"], ["address", "rua 4"], ["created_at", "2021-03-31 17:32:21.542118"], ["updated_at", "2021-03-31 17:32:21.542118"]]
+  ↳ app/controllers/restaurants_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/restaurants_controller.rb:27:in `block in create'
+Redirected to http://localhost:3000/restaurants/3
+Completed 302 Found in 12ms (ActiveRecord: 5.1ms | Allocations: 3563)
+
+
+Started GET "/restaurants/3" for 127.0.0.1 at 2021-03-31 14:32:21 -0300
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/restaurants_controller.rb:62:in `set_restaurant'
+  Rendering layout layouts/application.html.erb
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 270)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 3305)
+Completed 200 OK in 11ms (Views: 6.9ms | ActiveRecord: 0.9ms | Allocations: 4728)
+
+
+Started GET "/products" for 127.0.0.1 at 2021-03-31 14:34:39 -0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (1.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:11
+  [1m[36mRestaurant Load (1.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:15
+  Rendered products/index.html.erb within layouts/application (Duration: 30.3ms | Allocations: 12276)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 41.7ms | Allocations: 18756)
+Completed 200 OK in 50ms (Views: 31.4ms | ActiveRecord: 12.2ms | Allocations: 23223)
+
+
+Started GET "/products" for 127.0.0.1 at 2021-03-31 14:35:05 -0300
+Processing by ProductsController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2568)
+
+
+  
+NameError (uninitialized constant ProductsController::Products):
+  
+app/controllers/products_controller.rb:3:in `index'
+Started GET "/products" for 127.0.0.1 at 2021-03-31 14:36:53 -0300
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (1.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:11
+  [1m[36mRestaurant Load (1.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:15
+  Rendered products/index.html.erb within layouts/application (Duration: 32.5ms | Allocations: 9392)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.5ms | Allocations: 12620)
+Completed 200 OK in 43ms (Views: 27.5ms | ActiveRecord: 13.6ms | Allocations: 14416)
+
+
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" /* loading for inspect */ LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" /* loading for inspect */ LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" /* loading for inspect */ LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/restaurants" for 127.0.0.1 at 2021-03-31 15:05:41 -0300
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RestaurantsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/views/restaurants/index.html.erb:15
+  Rendered restaurants/index.html.erb within layouts/application (Duration: 17.7ms | Allocations: 4867)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.8ms | Allocations: 11403)
+Completed 200 OK in 38ms (Views: 23.2ms | ActiveRecord: 7.5ms | Allocations: 16171)
+
+
+Started GET "/products" for 127.0.0.1 at 2021-03-31 15:05:50 -0300
+  
+SyntaxError (/home/lucas/Desktop/project/ieat/app/controllers/products_controller.rb:15: syntax error, unexpected ':', expecting '}'
+        format.html { render: :index, notice: 'Produto cri...
+                            ^
+/home/lucas/Desktop/project/ieat/app/controllers/products_controller.rb:15: syntax error, unexpected '}', expecting `end'
+...dex, notice: 'Produto criado' }
+...                              ^
+/home/lucas/Desktop/project/ieat/app/controllers/products_controller.rb:17: syntax error, unexpected ':', expecting '}'
+        format.html { render: :new }
+                            ^
+):
+  
+app/controllers/products_controller.rb:15: syntax error, unexpected ':', expecting '}'
+app/controllers/products_controller.rb:15: syntax error, unexpected '}', expecting `end'
+app/controllers/products_controller.rb:17: syntax error, unexpected ':', expecting '}'
+app/controllers/products_controller.rb:15: syntax error, unexpected ':', expecting '}'
+app/controllers/products_controller.rb:15: syntax error, unexpected '}', expecting `end'
+app/controllers/products_controller.rb:17: syntax error, unexpected ':', expecting '}'
+app/controllers/products_controller.rb:15: syntax error, unexpected ':', expecting '}'
+app/controllers/products_controller.rb:15: syntax error, unexpected '}', expecting `end'
+app/controllers/products_controller.rb:17: syntax error, unexpected ':', expecting '}'
+Started GET "/products" for 127.0.0.1 at 2021-03-31 15:06:17 -0300
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:11
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:15
+  Rendered products/index.html.erb within layouts/application (Duration: 25.7ms | Allocations: 11588)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.0ms | Allocations: 14620)
+Completed 200 OK in 34ms (Views: 21.1ms | ActiveRecord: 10.8ms | Allocations: 16541)
+
+
+Started GET "/products" for 127.0.0.1 at 2021-03-31 15:07:46 -0300
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (1.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:11
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:15
+  Rendered products/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 1858)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 5171)
+Completed 200 OK in 16ms (Views: 12.3ms | ActiveRecord: 2.3ms | Allocations: 6484)
+
+
+Started GET "/products" for 127.0.0.1 at 2021-03-31 15:09:04 -0300
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (1.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:11
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:15
+  Rendered products/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 2057)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 5370)
+Completed 200 OK in 14ms (Views: 10.7ms | ActiveRecord: 2.1ms | Allocations: 6682)
+
+
+Started GET "/products" for 127.0.0.1 at 2021-03-31 15:10:24 -0300
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (1.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:11
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:15
+  Rendered products/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1868)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 5197)
+Completed 200 OK in 12ms (Views: 9.2ms | ActiveRecord: 1.9ms | Allocations: 6524)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2021-03-31 15:23:58 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/products/new"):
+  
+Started GET "/products/new" for 127.0.0.1 at 2021-03-31 15:24:54 -0300
+Processing by ProductsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1108)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 1179)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 8.7ms | Allocations: 8619)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1> Noco Produto </h1>
+
+<%= render 'form' product: @product%>
+):
+1:    <h1> Noco Produto </h1>
+2:    
+3:    <%= render 'form' product: @product%>
+  
+app/views/products/new.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/products/new.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/products/new.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/products/new.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/products/new.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/products/new.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+Started GET "/products/new" for 127.0.0.1 at 2021-03-31 15:25:25 -0300
+Processing by ProductsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1112)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 1182)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2466)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1> Novo Produto </h1>
+
+<%= render 'form' product: @product %>
+):
+1:    <h1> Novo Produto </h1>
+2:    
+3:    <%= render 'form' product: @product %>
+  
+app/views/products/new.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/products/new.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/products/new.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/products/new.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/products/new.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/products/new.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+Started GET "/products/new" for 127.0.0.1 at 2021-03-31 15:25:59 -0300
+Processing by ProductsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/new.html.erb within layouts/application
+  [1m[36mRestaurant Load (2.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."name" ASC[0m
+  ↳ app/views/products/_form.html.erb:14
+  Rendered products/_form.html.erb (Duration: 26.6ms | Allocations: 11081)
+  Rendered products/new.html.erb within layouts/application (Duration: 27.5ms | Allocations: 11391)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.0ms | Allocations: 14598)
+Completed 200 OK in 38ms (Views: 33.7ms | ActiveRecord: 2.5ms | Allocations: 15920)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2021-03-31 15:26:36 -0300
+Processing by ProductsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/new.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."name" ASC[0m
+  ↳ app/views/products/_form.html.erb:14
+  Rendered products/_form.html.erb (Duration: 7.4ms | Allocations: 2151)
+  Rendered products/new.html.erb within layouts/application (Duration: 8.7ms | Allocations: 2458)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 5750)
+Completed 200 OK in 17ms (Views: 14.4ms | ActiveRecord: 1.4ms | Allocations: 7066)
+
+
+Started POST "/products" for 127.0.0.1 at 2021-03-31 15:27:13 -0300
+Processing by ProductsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "product"=>{"name"=>"p4", "value"=>"20", "restaurant_id"=>"3"}, "commit"=>"Create Product"}
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/products_controller.rb:14:in `block in create'
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/products_controller.rb:14:in `block in create'
+  [1m[36mProduct Create (1.6ms)[0m  [1m[32mINSERT INTO "products" ("name", "value", "restaurant_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "p4"], ["value", 20.0], ["restaurant_id", 3], ["created_at", "2021-03-31 18:27:13.906841"], ["updated_at", "2021-03-31 18:27:13.906841"]]
+  ↳ app/controllers/products_controller.rb:14:in `block in create'
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/products_controller.rb:14:in `block in create'
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1568)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1636)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 6.3ms | Allocations: 7360)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8:     </thead>
+     9: 
+    10:     <tbody>
+    11:         <% @products.each do |p| %>
+    12:             <tr>
+    13:                 <th><%= p.name %></th>
+    14:                 <th><%= p.value %></th>
+  
+app/views/products/index.html.erb:11
+app/controllers/products_controller.rb:15:in `block (2 levels) in create'
+app/controllers/products_controller.rb:13:in `create'
+Started GET "/product" for 127.0.0.1 at 2021-03-31 15:28:36 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/product"):
+  
+Started GET "/products" for 127.0.0.1 at 2021-03-31 15:28:39 -0300
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (1.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:11
+  [1m[36mRestaurant Load (1.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:15
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:15
+  Rendered products/index.html.erb within layouts/application (Duration: 10.4ms | Allocations: 2598)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 5659)
+Completed 200 OK in 17ms (Views: 12.5ms | ActiveRecord: 3.9ms | Allocations: 6135)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2021-03-31 15:30:11 -0300
+Processing by ProductsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/new.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."name" ASC[0m
+  ↳ app/views/products/_form.html.erb:14
+  Rendered products/_form.html.erb (Duration: 10.9ms | Allocations: 5265)
+  Rendered products/new.html.erb within layouts/application (Duration: 11.1ms | Allocations: 5362)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 8436)
+Completed 200 OK in 28ms (Views: 12.3ms | ActiveRecord: 9.6ms | Allocations: 12917)
+
+
+Started POST "/products" for 127.0.0.1 at 2021-03-31 15:30:17 -0300
+Processing by ProductsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "product"=>{"name"=>"p5", "value"=>"30", "restaurant_id"=>"2"}, "commit"=>"Create Product"}
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/products_controller.rb:14:in `block in create'
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/products_controller.rb:14:in `block in create'
+  [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO "products" ("name", "value", "restaurant_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "p5"], ["value", 30.0], ["restaurant_id", 2], ["created_at", "2021-03-31 18:30:17.947288"], ["updated_at", "2021-03-31 18:30:17.947288"]]
+  ↳ app/controllers/products_controller.rb:14:in `block in create'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/products_controller.rb:14:in `block in create'
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 3.8ms | Allocations: 7880)
+
+
+  
+NameError (undefined local variable or method `index_path' for #<ProductsController:0x00000000012cf0>):
+  
+app/controllers/products_controller.rb:15:in `block (2 levels) in create'
+app/controllers/products_controller.rb:13:in `create'
+Started GET "/products/new" for 127.0.0.1 at 2021-03-31 15:31:21 -0300
+Processing by ProductsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/new.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."name" ASC[0m
+  ↳ app/views/products/_form.html.erb:14
+  Rendered products/_form.html.erb (Duration: 15.9ms | Allocations: 5260)
+  Rendered products/new.html.erb within layouts/application (Duration: 16.2ms | Allocations: 5357)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 8446)
+Completed 200 OK in 35ms (Views: 16.6ms | ActiveRecord: 10.7ms | Allocations: 12761)
+
+
+Started POST "/products" for 127.0.0.1 at 2021-03-31 15:31:26 -0300
+Processing by ProductsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "product"=>{"name"=>"p6", "value"=>"15", "restaurant_id"=>"2"}, "commit"=>"Create Product"}
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/products_controller.rb:14:in `block in create'
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/products_controller.rb:14:in `block in create'
+  [1m[36mProduct Create (1.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "value", "restaurant_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "p6"], ["value", 15.0], ["restaurant_id", 2], ["created_at", "2021-03-31 18:31:26.765435"], ["updated_at", "2021-03-31 18:31:26.765435"]]
+  ↳ app/controllers/products_controller.rb:14:in `block in create'
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/products_controller.rb:14:in `block in create'
+Redirected to http://localhost:3000/products
+Completed 302 Found in 16ms (ActiveRecord: 6.0ms | Allocations: 4827)
+
+
+Started GET "/products" for 127.0.0.1 at 2021-03-31 15:31:26 -0300
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:11
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:15
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:15
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:15
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:15
+  Rendered products/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 3718)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 6769)
+Completed 200 OK in 14ms (Views: 10.4ms | ActiveRecord: 2.5ms | Allocations: 7253)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2021-04-01 14:15:53 -0300
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RestaurantsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (2.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/views/restaurants/index.html.erb:16
+  Rendered restaurants/index.html.erb within layouts/application (Duration: 30.5ms | Allocations: 7857)
+  Rendered layout layouts/application.html.erb (Duration: 30.8ms | Allocations: 7937)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 8.7ms | Allocations: 12558)
+
+
+  
+ActionView::Template::Error (undefined method `total_od_products' for #<Restaurant id: 2, name: "res1", address: "Rua 2", created_at: "2021-03-30 19:55:54.944421000 +0000", updated_at: "2021-03-30 19:55:54.944421000 +0000">
+Did you mean?  total_of_products):
+    17:       <tr>
+    18:         <td><%= restaurant.name %></td>
+    19:         <td><%= restaurant.address %></td>
+    20:         <td><%= restaurant.total_od_products %></td>
+    21:         <td><%= link_to 'Show', restaurant %></td>
+    22:         <td><%= link_to 'Edit', edit_restaurant_path(restaurant) %></td>
+    23:         <td><%= link_to 'Destroy', restaurant, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  
+app/views/restaurants/index.html.erb:20
+app/views/restaurants/index.html.erb:16
+Started GET "/restaurants" for 127.0.0.1 at 2021-04-01 14:16:26 -0300
+Processing by RestaurantsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/views/restaurants/index.html.erb:16
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "products" WHERE "products"."restaurant_id" = $1[0m  [["restaurant_id", 2]]
+  ↳ app/models/restaurant.rb:5:in `total_of_products'
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "products" WHERE "products"."restaurant_id" = $1[0m  [["restaurant_id", 3]]
+  ↳ app/models/restaurant.rb:5:in `total_of_products'
+  Rendered restaurants/index.html.erb within layouts/application (Duration: 27.9ms | Allocations: 9332)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 44.9ms | Allocations: 15771)
+Completed 200 OK in 49ms (Views: 40.7ms | ActiveRecord: 6.9ms | Allocations: 17087)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8512873719464734410)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddRoleToUsers (20210401184914)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (2.2ms)[0m  [1m[35mALTER TABLE "users" ADD "role" integer[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210401184914"]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(8512873719464734410)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8512873719464734410)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddUserIdToRestaurants (20210401185114)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "restaurants" ADD "user_id" integer[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210401185114"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(8512873719464734410)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Update (0.8ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "role" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2021-04-01 18:54:04.566546"], ["role", 0], ["id", 1]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "role" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2021-04-01 19:00:19.994759"], ["role", 1], ["id", 1]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8512873719464734410)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(8512873719464734410)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRestaurant Update (0.4ms)[0m  [1m[33mUPDATE "restaurants" SET "updated_at" = $1, "user_id" = $2 WHERE "restaurants"."id" = $3[0m  [["updated_at", "2021-04-01 19:08:04.104683"], ["user_id", 1], ["id", 2]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/restaurants" for 127.0.0.1 at 2021-04-01 16:09:33 -0300
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RestaurantsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/views/restaurants/index.html.erb:16
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "products" WHERE "products"."restaurant_id" = $1[0m  [["restaurant_id", 3]]
+  ↳ app/models/restaurant.rb:6:in `total_of_products'
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "products" WHERE "products"."restaurant_id" = $1[0m  [["restaurant_id", 2]]
+  ↳ app/models/restaurant.rb:6:in `total_of_products'
+  Rendered restaurants/index.html.erb within layouts/application (Duration: 33.9ms | Allocations: 11135)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.5ms | Allocations: 17553)
+Completed 200 OK in 51ms (Views: 35.6ms | ActiveRecord: 9.6ms | Allocations: 22285)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 16:09:37 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1566)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1637)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2915)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Home#index</h1>
+<p>Hellow <%= @email %></p>
+
+
+<% if user_signed_in? %>
+    <% iif user.restaurant? %>
+        <p>Seus Produtos <% current_user.restaurant.name %></p>
+        <table>
+            <thead>
+                <th> Nome </th>
+                <th> Valor </th>
+            </thead>
+
+            <tbody>
+                <% current_user.restaurant.products.each do |p| %>
+                    <tr>
+                        <th><%= p.name %></th>
+                        <th><%= p.value %></th>
+                    </tr>
+                <% end %>
+            </tbody>
+        </table>
+    <% end %>
+<% end %>
+):
+1:    <h1>Home#index</h1>
+2:    <p>Hellow <%= @email %></p>
+3:    
+4:    
+5:    <% if user_signed_in? %>
+6:        <% iif user.restaurant? %>
+7:            <p>Seus Produtos <% current_user.restaurant.name %></p>
+8:            <table>
+9:                <thead>
+10:                    <th> Nome </th>
+11:                    <th> Valor </th>
+12:                </thead>
+13:    
+14:                <tbody>
+15:                    <% current_user.restaurant.products.each do |p| %>
+16:                        <tr>
+17:                            <th><%= p.name %></th>
+18:                            <th><%= p.value %></th>
+19:                        </tr>
+20:                    <% end %>
+21:                </tbody>
+22:            </table>
+23:        <% end %>
+24:    <% end %>
+  
+app/views/home/index.html.erb:26: syntax error, unexpected `end', expecting end-of-input
+app/views/home/index.html.erb:26: syntax error, unexpected `end', expecting end-of-input
+app/views/home/index.html.erb:26: syntax error, unexpected `end', expecting end-of-input
+app/views/home/index.html.erb:26: syntax error, unexpected `end', expecting end-of-input
+app/views/home/index.html.erb:26: syntax error, unexpected `end', expecting end-of-input
+app/views/home/index.html.erb:26: syntax error, unexpected `end', expecting end-of-input
+Started GET "/" for 127.0.0.1 at 2021-04-01 16:09:59 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 297)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 3627)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 5013)
+
+
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-04-01 16:13:52 -0300
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 1.0ms | Allocations: 655)
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 185.9ms | Allocations: 213045)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 194.6ms | Allocations: 219446)
+Completed 200 OK in 215ms (Views: 198.7ms | ActiveRecord: 5.1ms | Allocations: 228640)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2021-04-01 16:13:58 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"lucasrasecc@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "lucasrasecc@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 215ms (ActiveRecord: 2.6ms | Allocations: 7327)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 16:13:58 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 4790)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 4860)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.6ms | Allocations: 7000)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user' for #<ActionView::Base:0x0000000000b450>
+Did you mean?  super):
+    3: 
+    4: 
+    5: <% if user_signed_in? %>
+    6:     <% if user.restaurant? %>
+    7:         <p>Seus Produtos <% current_user.restaurant.name %></p>
+    8:         <table>
+    9:             <thead>
+  
+app/views/home/index.html.erb:6
+Started GET "/" for 127.0.0.1 at 2021-04-01 16:14:11 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.erb:7
+  [1m[36mProduct Load (1.0ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."restaurant_id" = $1[0m  [["restaurant_id", 2]]
+  ↳ app/views/home/index.html.erb:15
+  Rendered home/index.html.erb within layouts/application (Duration: 33.3ms | Allocations: 15331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.5ms | Allocations: 18567)
+Completed 200 OK in 46ms (Views: 29.1ms | ActiveRecord: 13.0ms | Allocations: 20863)
+
+
+Started GET "/users/sign_up/" for 127.0.0.1 at 2021-04-01 17:18:42 -0300
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/shared/_error_messages.html.erb (Duration: 0.9ms | Allocations: 249)
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 1.0ms | Allocations: 551)
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 272.9ms | Allocations: 213322)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 288.5ms | Allocations: 219724)
+Completed 200 OK in 313ms (Views: 294.1ms | ActiveRecord: 6.0ms | Allocations: 228549)
+
+
+Started POST "/users" for 127.0.0.1 at 2021-04-01 17:19:31 -0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"pastel@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (2.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "pastel@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (2.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "pastel@gmail.com"], ["encrypted_password", "$2a$12$fCA.uDo0jimxwV3a1pzKL.a232UxNTtfOP8eZZS4lkBJWExGmAXSO"], ["created_at", "2021-04-01 20:19:31.450779"], ["updated_at", "2021-04-01 20:19:31.450779"]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 232ms (ActiveRecord: 6.6ms | Allocations: 11000)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:19:31 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 295)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 3415)
+Completed 200 OK in 14ms (Views: 7.5ms | ActiveRecord: 1.9ms | Allocations: 5969)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2021-04-01 17:23:28 -0300
+Processing by RestaurantsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/views/restaurants/index.html.erb:16
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "products" WHERE "products"."restaurant_id" = $1[0m  [["restaurant_id", 3]]
+  ↳ app/models/restaurant.rb:6:in `total_of_products'
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "products" WHERE "products"."restaurant_id" = $1[0m  [["restaurant_id", 2]]
+  ↳ app/models/restaurant.rb:6:in `total_of_products'
+  Rendered restaurants/index.html.erb within layouts/application (Duration: 30.3ms | Allocations: 10305)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.0ms | Allocations: 13503)
+Completed 200 OK in 42ms (Views: 26.4ms | ActiveRecord: 11.5ms | Allocations: 16358)
+
+
+Started GET "/restaurants/new" for 127.0.0.1 at 2021-04-01 17:23:33 -0300
+Processing by RestaurantsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering restaurants/new.html.erb within layouts/application
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."role" = $1[0m  [["role", 1]]
+  ↳ app/views/restaurants/_form.html.erb:26
+  Rendered restaurants/_form.html.erb (Duration: 21.2ms | Allocations: 7242)
+  Rendered restaurants/new.html.erb within layouts/application (Duration: 23.0ms | Allocations: 7595)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.8ms | Allocations: 10627)
+Completed 200 OK in 29ms (Views: 21.5ms | ActiveRecord: 5.9ms | Allocations: 11236)
+
+
+Started GET "/restaurants/new" for 127.0.0.1 at 2021-04-01 17:24:05 -0300
+Processing by RestaurantsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering restaurants/new.html.erb within layouts/application
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."role" = $1[0m  [["role", 1]]
+  ↳ app/views/restaurants/_form.html.erb:26
+  Rendered restaurants/_form.html.erb (Duration: 6.1ms | Allocations: 1993)
+  Rendered restaurants/new.html.erb within layouts/application (Duration: 6.4ms | Allocations: 2106)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 5139)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 1.3ms | Allocations: 5560)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:24:09 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 287)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 3361)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 4553)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-04-01 17:24:45 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 610)
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 2355)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 5425)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 7373)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2021-04-01 17:24:50 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"pastel@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "pastel@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 208ms (ActiveRecord: 1.5ms | Allocations: 3851)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:24:50 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 56)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 3108)
+Completed 200 OK in 10ms (Views: 5.6ms | ActiveRecord: 1.0ms | Allocations: 4527)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:25:25 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 62)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 3120)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 3585)
+
+
+Started GET "/users/sign_up/" for 127.0.0.1 at 2021-04-01 17:25:31 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/shared/_error_messages.html.erb (Duration: 0.6ms | Allocations: 214)
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 126)
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1842)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 4912)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 6322)
+
+
+Started POST "/users" for 127.0.0.1 at 2021-04-01 17:25:46 -0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"customer@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "customer@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "customer@gmail.com"], ["encrypted_password", "$2a$12$XgVb1vQ1b6OL0uA4Us368.v1RcgD4.Bz.traWsA5rbcH3CxOP.O5S"], ["created_at", "2021-04-01 20:25:47.163904"], ["updated_at", "2021-04-01 20:25:47.163904"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 202ms (ActiveRecord: 3.2ms | Allocations: 6416)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:25:47 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 3096)
+Completed 200 OK in 8ms (Views: 4.4ms | ActiveRecord: 0.7ms | Allocations: 4512)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:25:56 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 62)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 3120)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 3585)
+
+
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "role" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2021-04-01 20:27:43.293747"], ["role", 1], ["id", 2]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "role" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2021-04-01 20:28:08.818145"], ["role", 0], ["id", 1]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "role" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2021-04-01 20:28:18.593806"], ["role", 2], ["id", 3]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started GET "/restaurants" for 127.0.0.1 at 2021-04-01 17:30:51 -0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RestaurantsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/views/restaurants/index.html.erb:16
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "products" WHERE "products"."restaurant_id" = $1[0m  [["restaurant_id", 3]]
+  ↳ app/models/restaurant.rb:6:in `total_of_products'
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "products" WHERE "products"."restaurant_id" = $1[0m  [["restaurant_id", 2]]
+  ↳ app/models/restaurant.rb:6:in `total_of_products'
+  Rendered restaurants/index.html.erb within layouts/application (Duration: 35.7ms | Allocations: 11135)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 46.1ms | Allocations: 17553)
+Completed 200 OK in 56ms (Views: 38.9ms | ActiveRecord: 9.2ms | Allocations: 22285)
+
+
+Started GET "/restaurants/new" for 127.0.0.1 at 2021-04-01 17:30:55 -0300
+Processing by RestaurantsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering restaurants/new.html.erb within layouts/application
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."role" = $1[0m  [["role", 1]]
+  ↳ app/views/restaurants/_form.html.erb:26
+  Rendered restaurants/_form.html.erb (Duration: 226.5ms | Allocations: 217767)
+  Rendered restaurants/new.html.erb within layouts/application (Duration: 227.6ms | Allocations: 218139)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 231.5ms | Allocations: 221088)
+Completed 200 OK in 233ms (Views: 225.0ms | ActiveRecord: 7.0ms | Allocations: 221726)
+
+
+Started GET "/users/sign_up/" for 127.0.0.1 at 2021-04-01 17:31:28 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 221)
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 0.7ms | Allocations: 542)
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 5.4ms | Allocations: 3123)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 6195)
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 8143)
+
+
+Started POST "/users" for 127.0.0.1 at 2021-04-01 17:31:41 -0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"baiao@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "baiao@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "baiao@gmail.com"], ["encrypted_password", "$2a$12$.B7ZFiiKMOymiTFUb8/ueebDIR8qvwXt2mrLAGaLWaxHejAO3D//."], ["created_at", "2021-04-01 20:31:41.880346"], ["updated_at", "2021-04-01 20:31:41.880346"]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 209ms (ActiveRecord: 4.2ms | Allocations: 8866)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:31:41 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 295)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 3413)
+Completed 200 OK in 13ms (Views: 7.4ms | ActiveRecord: 1.1ms | Allocations: 5613)
+
+
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "role" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2021-04-01 20:32:21.634848"], ["role", 1], ["id", 4]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:32:54 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 497)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 6768)
+Completed 200 OK in 33ms (Views: 24.7ms | ActiveRecord: 0.0ms | Allocations: 10106)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-04-01 17:33:01 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 638)
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 196.3ms | Allocations: 212798)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 199.5ms | Allocations: 215821)
+Completed 200 OK in 218ms (Views: 201.9ms | ActiveRecord: 5.6ms | Allocations: 223040)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2021-04-01 17:33:08 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"pastel@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "pastel@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 207ms (ActiveRecord: 2.2ms | Allocations: 5684)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:33:08 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.erb:7
+  Rendered home/index.html.erb within layouts/application (Duration: 13.1ms | Allocations: 6541)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 6610)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 3.5ms | Allocations: 8041)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    4: 
+    5: <% if user_signed_in? %>
+    6:     <% if current_user.restaurant? %>
+    7:         <p>Seus Produtos <% current_user.restaurant.name %></p>
+    8:         <table>
+    9:             <thead>
+   10:                 <th> Nome </th>
+  
+app/views/home/index.html.erb:7
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-04-01 17:34:16 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 1.2ms | Allocations: 1646)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:34:28 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 62)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 3137)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 3605)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-04-01 17:34:37 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 156)
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1014)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 4062)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 4732)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2021-04-01 17:34:42 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"lucasrasecc@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "lucasrasecc@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 200ms (ActiveRecord: 1.2ms | Allocations: 2510)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:34:42 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 49)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 3101)
+Completed 200 OK in 9ms (Views: 5.1ms | ActiveRecord: 0.8ms | Allocations: 4514)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-04-01 17:35:07 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 156)
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1027)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 4075)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 4703)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2021-04-01 17:35:11 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"pastel@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "pastel@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 207ms (ActiveRecord: 1.0ms | Allocations: 2525)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:35:11 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.erb:7
+  Rendered home/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 2214)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2283)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 1.3ms | Allocations: 3659)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    4: 
+    5: <% if user_signed_in? %>
+    6:     <% if current_user.restaurant? %>
+    7:         <p>Seus Produtos <% current_user.restaurant.name %></p>
+    8:         <table>
+    9:             <thead>
+   10:                 <th> Nome </th>
+  
+app/views/home/index.html.erb:7
+Started GET "/restaurants" for 127.0.0.1 at 2021-04-01 17:35:43 -0300
+Processing by RestaurantsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/views/restaurants/index.html.erb:16
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "products" WHERE "products"."restaurant_id" = $1[0m  [["restaurant_id", 3]]
+  ↳ app/models/restaurant.rb:6:in `total_of_products'
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "products" WHERE "products"."restaurant_id" = $1[0m  [["restaurant_id", 2]]
+  ↳ app/models/restaurant.rb:6:in `total_of_products'
+  Rendered restaurants/index.html.erb within layouts/application (Duration: 22.0ms | Allocations: 8371)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.2ms | Allocations: 11376)
+Completed 200 OK in 30ms (Views: 20.9ms | ActiveRecord: 7.9ms | Allocations: 12556)
+
+
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+Started GET "/restaurants/new" for 127.0.0.1 at 2021-04-01 17:37:00 -0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RestaurantsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering restaurants/new.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."role" = $1[0m  [["role", 1]]
+  ↳ app/views/restaurants/_form.html.erb:26
+  Rendered restaurants/_form.html.erb (Duration: 219.4ms | Allocations: 218236)
+  Rendered restaurants/new.html.erb within layouts/application (Duration: 220.5ms | Allocations: 218795)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 231.5ms | Allocations: 225188)
+Completed 200 OK in 248ms (Views: 226.9ms | ActiveRecord: 10.4ms | Allocations: 233328)
+
+
+Started POST "/restaurants" for 127.0.0.1 at 2021-04-01 17:37:09 -0300
+Processing by RestaurantsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "restaurant"=>{"name"=>"rest4", "address"=>"end", "user_id"=>"2"}, "commit"=>"Create Restaurant"}
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/restaurants_controller.rb:27:in `block in create'
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/restaurants_controller.rb:27:in `block in create'
+  [1m[36mRestaurant Create (1.1ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "address", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "rest4"], ["address", "end"], ["created_at", "2021-04-01 20:37:09.518171"], ["updated_at", "2021-04-01 20:37:09.518171"], ["user_id", 2]]
+  ↳ app/controllers/restaurants_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/restaurants_controller.rb:27:in `block in create'
+Redirected to http://localhost:3000/restaurants/4
+Completed 302 Found in 466ms (ActiveRecord: 5.6ms | Allocations: 7864)
+
+
+Started GET "/restaurants/4" for 127.0.0.1 at 2021-04-01 17:37:09 -0300
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/restaurants_controller.rb:62:in `set_restaurant'
+  Rendering layout layouts/application.html.erb
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (Duration: 2.8ms | Allocations: 278)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3315)
+Completed 200 OK in 14ms (Views: 8.4ms | ActiveRecord: 0.9ms | Allocations: 4829)
+
+
+Started GET "/restaurants/4/edit" for 127.0.0.1 at 2021-04-01 17:37:12 -0300
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/restaurants_controller.rb:62:in `set_restaurant'
+  Rendering layout layouts/application.html.erb
+  Rendering restaurants/edit.html.erb within layouts/application
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."role" = $1[0m  [["role", 1]]
+  ↳ app/views/restaurants/_form.html.erb:26
+  Rendered restaurants/_form.html.erb (Duration: 5.8ms | Allocations: 1865)
+  Rendered restaurants/edit.html.erb within layouts/application (Duration: 7.0ms | Allocations: 2131)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 5163)
+Completed 200 OK in 17ms (Views: 10.7ms | ActiveRecord: 2.5ms | Allocations: 6460)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2021-04-01 17:37:15 -0300
+Processing by RestaurantsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/views/restaurants/index.html.erb:16
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "products" WHERE "products"."restaurant_id" = $1[0m  [["restaurant_id", 3]]
+  ↳ app/models/restaurant.rb:6:in `total_of_products'
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "products" WHERE "products"."restaurant_id" = $1[0m  [["restaurant_id", 2]]
+  ↳ app/models/restaurant.rb:6:in `total_of_products'
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "products" WHERE "products"."restaurant_id" = $1[0m  [["restaurant_id", 4]]
+  ↳ app/models/restaurant.rb:6:in `total_of_products'
+  Rendered restaurants/index.html.erb within layouts/application (Duration: 17.4ms | Allocations: 6671)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 9606)
+Completed 200 OK in 23ms (Views: 15.8ms | ActiveRecord: 5.9ms | Allocations: 10220)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:37:24 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.erb:7
+  [1m[36mProduct Load (1.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."restaurant_id" = $1[0m  [["restaurant_id", 4]]
+  ↳ app/views/home/index.html.erb:15
+  Rendered home/index.html.erb within layouts/application (Duration: 6.9ms | Allocations: 2405)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 5521)
+Completed 200 OK in 22ms (Views: 12.9ms | ActiveRecord: 3.4ms | Allocations: 7787)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2021-04-01 17:37:37 -0300
+Processing by ProductsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/new.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."name" ASC[0m
+  ↳ app/views/products/_form.html.erb:14
+  Rendered products/_form.html.erb (Duration: 6.3ms | Allocations: 2189)
+  Rendered products/new.html.erb within layouts/application (Duration: 7.6ms | Allocations: 2492)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 5546)
+Completed 200 OK in 24ms (Views: 13.0ms | ActiveRecord: 3.9ms | Allocations: 9208)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:37:37 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 62)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 3128)
+Completed 200 OK in 8ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 3665)
+
+
+Started POST "/products" for 127.0.0.1 at 2021-04-01 17:37:44 -0300
+Processing by ProductsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "product"=>{"name"=>"p1", "value"=>"15", "restaurant_id"=>"4"}, "commit"=>"Create Product"}
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/products_controller.rb:14:in `block in create'
+  [1m[36mRestaurant Load (1.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/products_controller.rb:14:in `block in create'
+  [1m[36mProduct Create (1.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "value", "restaurant_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "p1"], ["value", 15.0], ["restaurant_id", 4], ["created_at", "2021-04-01 20:37:44.974914"], ["updated_at", "2021-04-01 20:37:44.974914"]]
+  ↳ app/controllers/products_controller.rb:14:in `block in create'
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/products_controller.rb:14:in `block in create'
+Redirected to http://localhost:3000/products
+Completed 302 Found in 13ms (ActiveRecord: 4.9ms | Allocations: 4718)
+
+
+Started GET "/products" for 127.0.0.1 at 2021-04-01 17:37:44 -0300
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.9ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:11
+  [1m[36mRestaurant Load (1.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:15
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:15
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:15
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:15
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:15
+  Rendered products/index.html.erb within layouts/application (Duration: 11.7ms | Allocations: 4712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 7758)
+Completed 200 OK in 16ms (Views: 11.4ms | ActiveRecord: 3.9ms | Allocations: 8350)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:37:49 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/index.html.erb:7
+  [1m[36mProduct Load (1.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."restaurant_id" = $1[0m  [["restaurant_id", 4]]
+  ↳ app/views/home/index.html.erb:15
+  Rendered home/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1667)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 4712)
+Completed 200 OK in 15ms (Views: 8.4ms | ActiveRecord: 3.1ms | Allocations: 6120)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:40:31 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/_restaurant.html.erb:1
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."restaurant_id" = $1[0m  [["restaurant_id", 4]]
+  ↳ app/views/home/_restaurant.html.erb:9
+  Rendered home/_restaurant.html.erb (Duration: 3.8ms | Allocations: 1883)
+  Rendered home/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 2264)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 5576)
+Completed 200 OK in 15ms (Views: 9.1ms | ActiveRecord: 2.6ms | Allocations: 7840)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:49:47 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 206)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 3531)
+Completed 200 OK in 12ms (Views: 10.5ms | Allocations: 4852)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-04-01 17:49:54 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 624)
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 4.6ms | Allocations: 2874)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 5944)
+Completed 200 OK in 12ms (Views: 10.3ms | Allocations: 8063)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2021-04-01 17:49:59 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"customer@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "customer@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 225ms (ActiveRecord: 12.2ms | Allocations: 7947)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:49:59 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 51)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 3103)
+Completed 200 OK in 10ms (Views: 5.7ms | ActiveRecord: 0.8ms | Allocations: 4522)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:50:12 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 229)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 3541)
+Completed 200 OK in 14ms (Views: 8.1ms | ActiveRecord: 1.3ms | Allocations: 5804)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:51:09 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 227)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 3539)
+Completed 200 OK in 13ms (Views: 6.9ms | ActiveRecord: 1.2ms | Allocations: 5803)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:51:41 -0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 62)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 3120)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 3586)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-04-01 17:51:45 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 537)
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1951)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 5072)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 6873)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2021-04-01 17:51:52 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"pastel@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "pastel@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 190ms (ActiveRecord: 1.5ms | Allocations: 3498)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:51:52 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/_restaurant.html.erb:1
+  [1m[36mProduct Load (0.9ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."restaurant_id" = $1[0m  [["restaurant_id", 4]]
+  ↳ app/views/home/_restaurant.html.erb:9
+  Rendered home/_restaurant.html.erb (Duration: 5.2ms | Allocations: 1948)
+  Rendered home/index.html.erb within layouts/application (Duration: 10.6ms | Allocations: 6244)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 6312)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 2.6ms | Allocations: 7705)
+
+
+  
+ActionView::Template::Error (undefined method `elseif' for #<ActionView::Base:0x0000000000c170>
+Did you mean?  elsif):
+     5: <% if user_signed_in? %>
+     6:     <% if current_user.restaurant? %>
+     7:         <%= render 'restaurant' %>
+     8:     <%= elseif current_user.customer? %>
+     9:         <%= render 'customer' %>
+    10:     <% end %>
+    11: <% end %>
+  
+app/views/home/index.html.erb:8
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:52:18 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1212)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1282)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.2ms | Allocations: 3524)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Home#index</h1>
+<p>Hello <%= @email %></p>
+
+
+<% if user_signed_in? %>
+    <% if current_user.restaurant? %>
+        <%= render 'restaurant' %>
+    <%= elsif current_user.customer? %>
+        <%= render 'customer' %>
+    <% end %>
+<% end %>
+):
+1:    <h1>Home#index</h1>
+2:    <p>Hello <%= @email %></p>
+3:    
+4:    
+5:    <% if user_signed_in? %>
+6:        <% if current_user.restaurant? %>
+7:            <%= render 'restaurant' %>
+8:        <%= elsif current_user.customer? %>
+9:            <%= render 'customer' %>
+10:        <% end %>
+11:    <% end %>
+  
+app/views/home/index.html.erb:8: syntax error, unexpected `elsif'
+app/views/home/index.html.erb:8: syntax error, unexpected `elsif'
+app/views/home/index.html.erb:8: syntax error, unexpected `elsif'
+app/views/home/index.html.erb:8: syntax error, unexpected `elsif'
+app/views/home/index.html.erb:8: syntax error, unexpected `elsif'
+app/views/home/index.html.erb:8: syntax error, unexpected `elsif'
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-04-01 17:52:37 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 536)
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1961)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 5280)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 7021)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-04-01 17:53:06 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 1.0ms | Allocations: 1632)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:54:44 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1217)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 1287)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 1.0ms | Allocations: 3533)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Home#index</h1>
+<p>Hello <%= @email %></p>
+
+
+<% if user_signed_in? %>
+    <% if current_user.restaurant? %>
+        <%= render 'restaurant' %>
+    <%= end %>
+    <%= if current_user.customer? %>
+        <%= render 'customer' %>
+    <% end %>
+<% end %>
+):
+1:    <h1>Home#index</h1>
+2:    <p>Hello <%= @email %></p>
+3:    
+4:    
+5:    <% if user_signed_in? %>
+6:        <% if current_user.restaurant? %>
+7:            <%= render 'restaurant' %>
+8:        <%= end %>
+9:        <%= if current_user.customer? %>
+10:            <%= render 'customer' %>
+11:        <% end %>
+12:    <% end %>
+  
+app/views/home/index.html.erb:8: syntax error, unexpected `end'
+app/views/home/index.html.erb:9: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/home/index.html.erb:11: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:14: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:8: syntax error, unexpected `end'
+app/views/home/index.html.erb:9: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/home/index.html.erb:11: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:14: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:8: syntax error, unexpected `end'
+app/views/home/index.html.erb:9: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/home/index.html.erb:11: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:14: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:8: syntax error, unexpected `end'
+app/views/home/index.html.erb:9: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/home/index.html.erb:11: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:14: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:8: syntax error, unexpected `end'
+app/views/home/index.html.erb:9: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/home/index.html.erb:11: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:14: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:8: syntax error, unexpected `end'
+app/views/home/index.html.erb:9: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/home/index.html.erb:11: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:14: syntax error, unexpected `end', expecting ')'
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:55:16 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1176)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1246)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.7ms | Allocations: 3485)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Home#index</h1>
+<p>Hello <%= @email %></p>
+
+
+<% if user_signed_in? %>
+    <% if current_user.restaurant? %>
+        <%= render 'restaurant' %>
+    <%= end %>
+<% end %>
+):
+1:    <h1>Home#index</h1>
+2:    <p>Hello <%= @email %></p>
+3:    
+4:    
+5:    <% if user_signed_in? %>
+6:        <% if current_user.restaurant? %>
+7:            <%= render 'restaurant' %>
+8:        <%= end %>
+9:    <% end %>
+  
+app/views/home/index.html.erb:8: syntax error, unexpected `end'
+app/views/home/index.html.erb:9: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:11: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:8: syntax error, unexpected `end'
+app/views/home/index.html.erb:9: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:11: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:8: syntax error, unexpected `end'
+app/views/home/index.html.erb:9: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:11: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:8: syntax error, unexpected `end'
+app/views/home/index.html.erb:9: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:11: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:8: syntax error, unexpected `end'
+app/views/home/index.html.erb:9: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:11: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:8: syntax error, unexpected `end'
+app/views/home/index.html.erb:9: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:11: syntax error, unexpected `end', expecting ')'
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:57:56 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/_restaurant.html.erb:1
+  [1m[36mProduct Load (0.9ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."restaurant_id" = $1[0m  [["restaurant_id", 4]]
+  ↳ app/views/home/_restaurant.html.erb:9
+  Rendered home/_restaurant.html.erb (Duration: 5.1ms | Allocations: 1883)
+  Rendered home/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 2294)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 5625)
+Completed 200 OK in 19ms (Views: 11.3ms | ActiveRecord: 2.9ms | Allocations: 7900)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-04-01 17:58:16 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/shared/_links.html.erb (Duration: 1.4ms | Allocations: 536)
+  Rendered /home/lucas/.rvm/gems/ruby-3.0.0/gems/devise-4.7.3/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1959)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 5069)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 6808)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2021-04-01 17:58:21 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"customer@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "customer@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 201ms (ActiveRecord: 1.9ms | Allocations: 3502)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:58:21 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 4082)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 4150)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.8ms | Allocations: 5528)
+
+
+  
+ActionView::Template::Error (undefined method `resder' for #<ActionView::Base:0x0000000000d818>
+Did you mean?  render):
+     6:     <% if current_user.restaurant? %>
+     7:         <%= render 'restaurant' %>
+     8:     <% elsif current_user.customer? %>
+     9:         <%= resder 'customer' %>
+    10:     <% end %>
+    11: <% end %>
+  
+app/views/home/index.html.erb:9
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:58:29 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_customer.html.erb (Duration: 1.2ms | Allocations: 1820)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2240)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 2309)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.0ms | Allocations: 4548)
+
+
+  
+ActionView::Template::Error (uninitialized constant #<Class:0x00007f255c278980>::Restaurants):
+     6:     </thead>
+     7: 
+     8:     <tbody>
+     9:         <% Restaurants.all.each do |res| %>
+    10:             <tr>
+    11:                 <th><%= res.name %></th>
+    12:                 <table>
+  
+app/views/home/_customer.html.erb:9
+app/views/home/index.html.erb:9
+Started GET "/" for 127.0.0.1 at 2021-04-01 17:58:43 -0300
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/views/home/_customer.html.erb:9
+  [1m[36mProduct Load (0.9ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."restaurant_id" = $1[0m  [["restaurant_id", 3]]
+  ↳ app/views/home/_customer.html.erb:19
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."restaurant_id" = $1[0m  [["restaurant_id", 2]]
+  ↳ app/views/home/_customer.html.erb:19
+  [1m[36mProduct Load (1.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."restaurant_id" = $1[0m  [["restaurant_id", 4]]
+  ↳ app/views/home/_customer.html.erb:19
+  Rendered home/_customer.html.erb (Duration: 9.0ms | Allocations: 3581)
+  Rendered home/index.html.erb within layouts/application (Duration: 10.1ms | Allocations: 3998)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 7328)
+Completed 200 OK in 21ms (Views: 12.3ms | ActiveRecord: 4.8ms | Allocations: 9603)
+
+
